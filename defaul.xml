@@ -1,0 +1,11 @@
+<manifest>
+<!--     A53 + HMI : URL FOR GITLAB     -->
+<!--  <remote name="origin" fetch="https://gitlab.com/um_ivi_platform/" /> -->
+<remote name="hmi" fetch="https://gitlab.com/r3788"/>
+<!--     END     -->
+<!--     RELEASE 1 TO 7 : ALPHA BOARD BRING UP  -->
+<project name="aditya" groups="aditya" path="aditya" remote="hmi" revision="b373772001bc76899f6ef4ab4191df05191a8e3a" upstream="main"/>
+<project name="demo" groups="demo" path="demo" remote="hmi" revision="567987d921f37375c6938b6af592d92939f7e485" upstream="main"/>
+<project name="devops demo" groups="devops demo" path="devops demo" remote="hmi" revision="0dd6d6e4e9a9f323cc56bbf1bbe7d630dc69b156" upstream="mian"/>
+<project name="learn gitlab" groups="learn gitlab" path="learn gitlab " remote="hmi" revision="baf6f136bb54dca2b2790b975fc5f39ff0471762" upstream="main"/>
+</manifest>
